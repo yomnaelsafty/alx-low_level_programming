@@ -4,10 +4,10 @@
 /**
  * main - entry point
  *
- * description: print the value of n status:
+ * Description: print the value of n status:
  *              greater than, is zero and is not less than 6.
  *
- * return: 0 (succes)
+ * Return: 0 (success)
 */
 int main(void)
 {
