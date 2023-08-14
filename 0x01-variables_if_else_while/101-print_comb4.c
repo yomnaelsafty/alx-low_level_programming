@@ -1,12 +1,14 @@
-#include <stdio.h>
+#include<stdio.h>
+
 /**
- * main - entry point
+ * main - Entry point
  *
  * Description: print all possible different
- *             combination of three digits
+ *             combination of two digits
  *
  * Return: always 0 (success)
 */
+
 int main(void)
 {
 	int digit1 = 0;
@@ -29,7 +31,7 @@ int main(void)
 					putchar(digit2 + 48);
 					putchar(digit3 + 48);
 
-					if (digit + digit2 + digit3 != 24)
+					if (digit1 + digit2 + digit3 != 24)
 					{
 						putchar(',');
 						putchar(' ');
