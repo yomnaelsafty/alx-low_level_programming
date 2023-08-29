@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * *_strchr -  locates a character in a string.
+ * *_strchr -  fills memory with a constant byte
  * @s: pointer to put the constant
  * @c: constant
- * @Return pointer to s
+ * Return: pointer to s
 */
 char *_strchr(char *s, char c)
 {
